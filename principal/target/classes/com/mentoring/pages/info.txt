@@ -1,0 +1,3 @@
+Aquí van todas las Class de las diferentes páginas que compongan la web. 
+Dentro de cada Class ubicaremos los locators + métodos de interacción con los mismos.
+Desde aquí se llamaran para formar los diferentes Steps que conformen, a su vez, los Tests que creemos.
