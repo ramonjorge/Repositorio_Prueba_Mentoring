@@ -1,3 +1,8 @@
 Aquí van todas las Class de las diferentes páginas que compongan la web. 
 Dentro de cada Class ubicaremos los locators + métodos de interacción con los mismos.
 Desde aquí se llamaran para formar los diferentes Steps que conformen, a su vez, los Tests que creemos.
+
+Los locators se declaran: private final By botonVerde = by.xpath("//button[@id='botonVerde']")
+private porque solo se usarán en esta Class que recoge los locators y que hacer con ellos y final porque
+así evitamos que cambien a lo largo del código.
+El primer "By" declara que esa variable es un locator y le sirve al webdriver para saber que hacer con ella.
