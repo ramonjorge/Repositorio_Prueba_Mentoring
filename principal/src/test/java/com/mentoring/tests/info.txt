@@ -1,0 +1,4 @@
+Aquí van los tests, step a step creados previamente en /steps. Se pueden agrupar por página, funcionalidad,
+finalidad (regresión, smoke, E2E...)
+Para llamar a métodos de otras clases, aunque sean públicas (tanto las clases como los métodos) es necesario
+hacer instancias de dichas clases en las clases Tests que requieran dichos métodos.
