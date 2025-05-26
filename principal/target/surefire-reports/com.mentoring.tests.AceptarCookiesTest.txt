@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.mentoring.tests.AceptarCookiesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.907 s <<< FAILURE! -- in com.mentoring.tests.AceptarCookiesTest
-com.mentoring.tests.AceptarCookiesTest.aceptarCookiesTest -- Time elapsed: 1.879 s <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.359 s <<< FAILURE! -- in com.mentoring.tests.AceptarCookiesTest
+com.mentoring.tests.AceptarCookiesTest.aceptarCookiesTest -- Time elapsed: 2.330 s <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "com.mentoring.base.MetodosDriver.searchCasaDelLibro()" because "this.metodosDriver" is null
-	at com.mentoring.tests.AceptarCookiesTest.aceptarCookiesTest(AceptarCookiesTest.java:38)
+	at com.mentoring.tests.AceptarCookiesTest.aceptarCookiesTest(AceptarCookiesTest.java:40)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
