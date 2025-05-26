@@ -14,34 +14,30 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import com.mentoring.base.MetodosDriver;
 import com.mentoring.pages.ModalCookies;
+import com.mentoring.steps.Steps;
+
 
 public class AceptarCookiesTest {
 
-        WebDriver driver;
+        private WebDriver driver;
         private MetodosDriver metodosDriver;
         private ModalCookies modalCookies;
+        private Steps steps;
     
         @BeforeEach
-        public void setUp() {
-            ChromeOptions options = new ChromeOptions();
-            // Desactivar headless para ver la ventana de Chrome
-            options.addArguments("--headless=false");; // Asegúrate de que no está en modo headless
-            options.addArguments("--enable-logging");   // Activa los logs de Chrome
-            options.addArguments("--v=1");    // Establece el nivel de verbosidad de los logs  
-            driver = new ChromeDriver();
-            // Todo esto debería ir dentro de /base/MetodosDriver.java? Y llamar solo a la función setUp?
+
+        public void iniciarDriver(){
+            metodosDriver = new MetodosDriver();
+            driver = metodosDriver.setUp();
+            
         }
     
         @Test
        public void aceptarCookiesTest(){
 
-            metodosDriver.searchCasaDelLibro();
+            metodosDriver.searchCasaDelLibro(this.driver);
         // Quizás aquí falte meter una espera por si tardase en cargar?
-            modalCookies.clicAceptarCookies();
-
-            Assertions.assertFalse(driver.findElement(By.xpath("//button[@id='onetrust-reject-all-handler']")).isDisplayed(),
-            "El botón de cookies aún es visible"
-);
+            steps.aceptarCookies();
        }
 
         @AfterEach
