@@ -41,5 +41,15 @@ import org.openqa.selenium.By;
              *Hacer clic en el botón de Rechazar Cookies
              *Hacer clic en el botón de Aceptar Cookies
              */
+
+
+             //Lista de Asserts
+             /*Comprobar que aparece el texto de Politica de privacidad (ASSERT equal o True)
+              *Comprobar los textos de los botones cambian al hacer clic en configurar cookies
+              *Comprobar el texto de cada sección al cambiar las pestañas de Configurar cookies
+              *Comprobar la burbuja=Able al hacer clic en ella para cada sección de conf. cookies
+              *Comprobar el drawer se cierra al hacer clic en el boton de Rechazar cookies
+              *Comprobar el drawer se cierra al hacer clic en el boton de Aceptar cookies
+              */
         }
 }
