@@ -65,7 +65,3 @@ public class form {
 // ----> ¿Todos los elementos están visibles?
 // ----> ¿Todos los elementos son como esperamos que sean?
 
-
-
-    
-}
