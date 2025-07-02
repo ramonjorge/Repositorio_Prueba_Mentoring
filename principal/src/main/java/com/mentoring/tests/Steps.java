@@ -1,4 +1,4 @@
-package com.mentoring.steps;
+package com.mentoring.tests;
 
 import org.openqa.selenium.WebDriver;
 

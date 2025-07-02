@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import com.mentoring.base.MetodosDriver;
 import com.mentoring.pages.ModalCookies;
-import com.mentoring.steps.Steps;
+import com.mentoring.tests.Steps;
 
 
 public class AceptarCookiesTest {
